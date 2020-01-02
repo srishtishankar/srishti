@@ -1,0 +1,48 @@
+body {
+	background: url("1.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: "montserrat";
+	background-repeat: no-repeat;
+}
+
+h2 {
+	color: #fba14b;
+}
+
+.container {
+	text-align: center;
+	padding-top: 10%;
+}
+
+.content {
+	color: white;
+	padding-top: 10px;
+}
+
+a {
+	color: #fba14b;
+}
+
+h4 {
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+.navbar-inverse {
+	padding-right: 10%;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav li a {
+      color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	color: grey;
+}
+
+a:hover{
+	color: grey;
+}

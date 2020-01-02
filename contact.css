@@ -1,0 +1,58 @@
+body{
+	background: url("1.jpg");
+	background-size: cover;
+	color: #fba14b;
+	text-align: center;
+	padding-top: 10%;
+	font-family: "montserrat";
+	background-repeat: no-repeat;
+}
+
+.row {
+	padding-left: 40%;
+	padding-right: 40%;
+	padding-top: 5%;
+}
+
+.thumbnail, img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav li a {
+      color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	color: grey;
+}
+
+#icon{
+	height: 20px;
+	width: 25px;
+	border-radius: 0%;
+}
+
+h4{
+	font-weight: regular;
+	color: white;
+	padding-top: 3%;
+}
+
+#copyright{
+	width: 15px;
+	height: 15px;
+}
+
+h5{
+	padding-top: 4%;
+	color: white;
+	text-align: right;
+	padding-right: 5px;
+}

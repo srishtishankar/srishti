@@ -1,0 +1,76 @@
+body {
+	background: url("scenery.png");
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.content {
+	padding-top: 20%;
+	text-align: center;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav li a {
+      color: black;
+}
+
+h1,
+h4 {
+	font-family: "montserrat";
+	color: white;
+}
+
+.Imageborder {
+  border-radius: 50%;
+  border: 5px solid white;
+  width: 150px;
+  height: 150px;
+}
+
+b {
+	font-weight: 500;
+	font-size: 2em;
+	color: #fba14b;
+}
+
+.scroll-link {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mouse {
+  max-width: 2.5rem;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes scroll {
+  0%, 20% {
+  transform: translateY(0) scaleY(1);
+  }
+}
+
+@keyframes scroll {
+  10% {
+  opacity: 1;
+  }
+  100% {
+  transform: translateY(36px) scaleY(2);
+  opacity: 0.01;
+  }
+
+.scroll {
+  animation-name: scroll;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+  animation-iteration-count: infinite;
+  transform-origin: 50% 20.5px;
+  will-change: transform;
+}
